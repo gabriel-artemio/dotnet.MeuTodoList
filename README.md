@@ -1,2 +1,3 @@
 # dotnet.MeuTodoList
-ASP.NET, EF Core e SQLite
+
+API com ASP.NET, EF Core e SQLite
