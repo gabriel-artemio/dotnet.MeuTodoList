@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\ARLAB\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ARLAB\\.nuget\\packages"
-    ]
-  }
-}
