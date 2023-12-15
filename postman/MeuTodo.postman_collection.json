@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "73e548c1-7053-49e3-a0a0-9f717ffc04a1",
+		"name": "MeuTodo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26735814"
+	},
+	"item": [
+		{
+			"name": "Insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Testar aplicação\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44370/v1/todos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"v1",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44370/v1/todos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"v1",
+						"todos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Testar aplicação dotnet\",\r\n    \"done\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44370/v1/todos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"v1",
+						"todos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44370/v1/todos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"v1",
+						"todos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
