@@ -1,1 +1,1 @@
-#Meu Todo - dotnet5.0 - SQLite & Entity Framework
+#ASP.NET, EF Core e SQLite
